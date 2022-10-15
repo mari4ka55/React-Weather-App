@@ -32,7 +32,7 @@ export default function Weather(props) {
   }
 
   function search() {
-    const apiKey = "eac360db5fc86ft86450f3693e73o43f";
+    const apiKey = "0dc40d3d7cda209ca40e77430c74cf57";
     let apiUrl = `https://api.shecodes.io/v1/weather/current?query=${city}&key=${apiKey}&units=metric`;
 
     axios.get(apiUrl).then(handleResponse);
@@ -42,7 +42,7 @@ export default function Weather(props) {
     return (
       <div className="Weather">
         <a
-          href="https://www.shecodes.io/"
+          href="https://www.facebook.com/profile.php?id=100001676673228"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -53,7 +53,7 @@ export default function Weather(props) {
             <div className="col-9 ">
               <input
                 type="search"
-                placeholder="Enter a city.."
+                placeholder="Search a city.."
                 className="form-control search-input"
                 onChange={handleCityChange}
               />
@@ -88,7 +88,7 @@ export default function Weather(props) {
           </a>{" "}
           and{" "}
           <a
-            href="https://inquisitive-paletas-17e035.netlify.app"
+            href="https://inquisitive-paletas-17e035.netlify.app/p"
             target="_blank"
             rel="noopener noreferrer"
           >
