@@ -72,15 +72,15 @@ export default function Weather(props) {
         <footer>
           This project was coded by{" "}
           <a
-            href="https://www.shecodes.io/"
+            href="https://www.facebook.com/profile.php?id=100001676673228"
             target="_blank"
             rel="noopener noreferrer"
           >
-            SheCodes
+            Mariia Lobur
           </a>{" "}
           and is{" "}
           <a
-            href="https://github.com/shecodesio/weather"
+            href="https://github.com/mari4ka55/React-Weather-App"
             target="_blank"
             rel="noopener noreferrer"
           >
