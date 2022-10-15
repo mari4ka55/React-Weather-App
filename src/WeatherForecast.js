@@ -33,7 +33,7 @@ export default function WeatherForecast(props) {
       </div>
     );
   } else {
-    let apiKey = "eac360db5fc86ft86450f3693e73o43f";
+    let apiKey = "0dc40d3d7cda209ca40e77430c74cf57";
     let apiUrl = `https://api.shecodes.io/v1/weather/forecast?query=${props.city}&key=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleForecastResponse);
 
